@@ -49,8 +49,8 @@ def calc_bias(preds, true):
 for ii in range(len(Type_w)):
     type_w = Type_w[ii]
     
-    N = 1000
-    epsi = 1
+    N = 3000
+    epsi = 2
     delta = 10 / N ** 1.1
     pro = 0.5
     
