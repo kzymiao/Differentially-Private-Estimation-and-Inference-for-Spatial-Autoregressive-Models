@@ -128,7 +128,7 @@ for ii in range(len(Type_w)):
     print(f"\nTrue Parameters: {tbeta.flatten()}")
     print(f"Parameter Dimensions: " + ", ".join([f"beta{i+1}" for i in range(p)] + ["rho"]))
     
-    print("\n--- DP Method (ε=1.0, δ=10/N^1.1) ---")
+    print("\n--- DP Method ---")
     print(f"RMSE:      {rmse_dp}")
     print(f"Bias:      {bias_dp}")
     print(f"CP:        {CP_ratio}")
